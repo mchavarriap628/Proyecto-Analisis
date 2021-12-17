@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../images/buses.jpg);
+    background-size: cover;
+}
+
+/*Banner de inicio de sesióncolor morado*/
+#mensajeInicio{
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    background-color: #000000; /*rgb(51, 0, 38)*/ 
+    opacity: 0.8;
+    left: 50px;
+    right: 50px; 
+}
+
+#mailSoporte {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    
+}
+
+/*formulario de inicio de sesión y botón*/
+
+#formularioLogin{
+    margin-top: 30px;
+}
+
+.btn_login{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #000000;
+}
+.btn_login:active{
+    transform: scale(1.05);
+}
+
+/*div de partidos politicos*/
+
+#pieDePagina{
+    background-color: #000000;
+    color: white;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 15px;
+    position: fixed;  
+    width: 100%;
+    left: 0px;
+    right: 0px;  
+    bottom: 0px;   
+}

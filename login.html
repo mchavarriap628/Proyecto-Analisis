@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Starkbus CR</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/estiloLogin.css">
+    <script type="text/javascript" src="assets/js/validarLogin.js"></script>
+</head>
+
+<style type="text/css">
+
+
+</style>
+
+<body>
+
+    <div align="center" id="mensajeInicio">
+        <h1 align="center">Inicio de sesión - Starkbus Costa Rica</h1>
+        <p><b>Nota:</b> Si usted es un administrador, conductor o cliente, al hacer login
+            <br />será automaticamente redirigido a su tipo de cuenta.
+
+        </p>
+    </div>
+
+    <div align="center" id="formularioLogin">
+        <!--formulario de login-->
+        <form action="assets/php/consultaLogin.php" method="post" onsubmit="return validarCredenciales();">
+            <input id="correoElectronico" type="email" name="correoElectronico" value=""
+                placeholder="Correo Electrónico" required />
+            <input id="contrasena" type="password" name="contrasena" value="" placeholder="Contraseña" required />
+            <br />
+            <input type="submit" value="Iniciar sesión" class="btn_login" />
+        </form>
+    </div>
+
+    <div align="center">
+        <!--Foto del centro-->
+        <a href="index.html"><img style="width: 220px; height: 125px;" src="assets/images/StarBusk2.png"></a>
+    </div>
+
+    <div align="center" id="pieDePagina">
+        <a id="mailSoporte" href="registro.php">Haga click <u>aquí</u> si no tiene una cuenta y desea registrarse.</a>
+    </div>
+
+</body>
+
+</html>
